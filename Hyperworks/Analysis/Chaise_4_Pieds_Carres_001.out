@@ -1,0 +1,314 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                     Altair OptiStruct(TM) 2020                     **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **             Windows 10  (Build 9200)  DESKTOP-IFHN8D9              **
+ **         16 CPU:  Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz         **
+ **                    19075 MB RAM,  37464 MB swap                    **
+ **                                                                    **
+ ** Build: 1018160c0133200_Ce64RB68UH14M:175822-000  60040040000000140 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2020                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:/Program Files/Altair/2020-edu/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/adrin/Documents/Insic/2A/Optimisation/optimisation-topologique/Hyperworks/Analysis/Chaise_4_Pieds_Carres.fem
+  Output files prefix          : 
+     C:/Users/adrin/Documents/Insic/2A/Optimisation/optimisation-topologique/Hyperworks/Analysis/Chaise_4_Pieds_Carres
+  Model read from files:
+ (*1)	    C:/Users/adrin/Documents/Insic/2A/Optimisation/optimisation-topologique/Hyperworks/Analysis/Chaise_4_Pieds_Carres.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :     94908
+  Total # of Elements                  :    572666
+  Total # of Degrees of Freedom        :    284348
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :   6642643
+
+ 
+  Element Type Information
+  ------------------------
+
+   CTETRA   Elements   :   572666
+
+  Load and Boundary Information
+  -----------------------------
+
+   FORCE Sets        :         3
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PSOLID Cards      :         2
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            1          4
+   ----------   --------  -------  --------------------- 
+
+   Run Type                        :   Analysis Only
+   Run at location                 : C:/Users/adrin/Documents/Insic/2A/Optimisation/optimisation-topologique/Hyperworks/Analysis/
+   Scratch file directory          : C:/Users/adrin/Documents/Insic/2A/Optimisation/optimisation-topologique/Hyperworks/Analysis/
+                                     Free space:   495.649 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Memory (RAM) Allocated in Preprocessor                  :    4305 MB
+ Estimated Memory (RAM) for Out of Core Solution         :    1454 MB
+ Estimated Memory (RAM) for In-Core Solution             :    4305 MB
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :     106 MB
+ Estimated Scratch Disk Space for In-Core Solution       :     245 MB
+ Estimated Scratch Disk Space for Out of Core Solution   :    4834 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ Element # 14755, element type TETRA.
+ WARNING - Outside of recommended range: Edge Angle =    79.795    
+           upper limit =    75.000    
+  
+ Element # 14785, element type TETRA.
+ WARNING - Outside of recommended range: Edge Angle =    77.076    
+           upper limit =    75.000    
+  
+ Element # 14792, element type TETRA.
+ WARNING - Outside of recommended range: Edge Angle =    78.798    
+           upper limit =    75.000    
+
+ NOTE : other similar error/warning messages were suppressed,
+        use PARAM,CHECKEL,FULL to obtain full report
+
+  
+ Element # 537634, element type TETRA.
+ WARNING - Outside of recommended range: Face Vertex Angle =    12.497    
+           lower limit =    15.000    
+  
+ Element # 539213, element type TETRA.
+ WARNING - Outside of recommended range: Face Vertex Angle =    12.497    
+           lower limit =    15.000    
+  
+ Element # 581605, element type TETRA.
+ WARNING - Outside of recommended range: Face Aspect Ratio =    55.287    
+           upper limit =    50.000    
+ ERROR - Acceptable range violation: Face Skew Angle =    87.928    
+         upper limit =    85.000    
+ ERROR - Acceptable range violation: Face Vertex Angle =    1.0364    
+         lower limit =    3.0000    
+  
+ Element # 581606, element type TETRA.
+ WARNING - Outside of recommended range: Face Aspect Ratio =    56.197    
+           upper limit =    50.000    
+ ERROR - Acceptable range violation: Face Skew Angle =    87.961    
+         upper limit =    85.000    
+ ERROR - Acceptable range violation: Face Vertex Angle =    1.0196    
+         lower limit =    3.0000    
+ ERROR - Acceptable range violation: Edge Angle =    88.791    
+         upper limit =    87.000    
+  
+ Element # 581607, element type TETRA.
+ WARNING - Outside of recommended range: Face Aspect Ratio =    53.456    
+           upper limit =    50.000    
+ ERROR - Acceptable range violation: Face Skew Angle =    87.858    
+         upper limit =    85.000    
+ ERROR - Acceptable range violation: Face Vertex Angle =    1.0717    
+         lower limit =    3.0000    
+  
+ Element # 581608, element type TETRA.
+ WARNING - Outside of recommended range: Face Skew Angle =    83.690    
+           upper limit =    75.000    
+ WARNING - Outside of recommended range: Face Vertex Angle =    3.2531    
+           lower limit =    15.000    
+ ERROR - Acceptable range violation: Edge Angle =    88.646    
+         upper limit =    87.000    
+  
+ Element # 581611, element type TETRA.
+ ERROR - Acceptable range violation: Edge Angle =    88.773    
+         upper limit =    87.000    
+  
+ Element # 581616, element type TETRA.
+ WARNING - Outside of recommended range: Aspect Ratio =    193.42    
+           upper limit =    100.00    
+  
+ Element # 581620, element type TETRA.
+ WARNING - Outside of recommended range: Aspect Ratio =    193.78    
+           upper limit =    100.00    
+  
+ Element # 581622, element type TETRA.
+ WARNING - Outside of recommended range: Face Skew Angle =    84.717    
+           upper limit =    75.000    
+  
+ Element # 581627, element type TETRA.
+ WARNING - Outside of recommended range: Face Skew Angle =    80.174    
+           upper limit =    75.000    
+  
+ Element # 581638, element type TETRA.
+ WARNING - Outside of recommended range: Aspect Ratio =    170.76    
+           upper limit =    100.00    
+  
+ *** ERROR # 2203 ***
+ Error(s) encountered during element check
+***** Element Quality Check Failed - error limits violation *****
+ 
+ NOTE : To bypass element quality checks (except essential validity checks)
+ use PARAM,CHECKEL,NO. This may, however, cause very poor results.
+
+ Element Quality Check Summary
+ -----------------------------
+ Total # of elements that exceeded acceptable range    (error) =  4646
+ Total # of elements that exceeded recommended range (warning) = 11877
+ Note: Only element with the highest violation of each check is listed below.
+
+ Acceptable range violations:
+ ------------------------------------------------------------------------------
+ Element     Property          # of     Acceptable Range     Max.  Viol.  Elem.
+                               Viol.     Lower     Upper    Value  type    No.
+ ------- ------------------- -------- --------- --------- --------- --- -------
+ TETRA   Face Skew Angle         3690        --     85.00     89.09  U   581638
+ TETRA   Edge Angle              4355        --     87.00     89.85  U   582059
+ TETRA   Face Vertex Angle       3773      3.00    177.00      0.61  L   581638
+ 
+ Recommended range violations:
+ ------------------------------------------------------------------------------
+ Element     Property          # of     Recommended Range    Max.  Viol.  Elem.
+                               Viol.     Lower     Upper    Value  type    No.
+ ------- ------------------- -------- --------- --------- --------- --- -------
+ TETRA   TETRA Aspect Ratio        46        --    100.00    555.12  U   582010
+ TETRA   Face Skew Angle          738        --     75.00     85.00  U   581733
+ TETRA   Edge Angle              9717        --     75.00     86.99  U   583529
+ TETRA   Face Vertex Angle       1165     15.00    165.00      3.02  L   585898
+ TETRA   Face Aspect Ratio       1213        --     50.00     68.40  U   582296
+ 
+  
+ *** PROGRAM STOPPED: ERRORS DURING ELEMENT QUALITY CHECK.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      4305 MB
+   IN ADDITION     45 MB MEMORY WAS ALLOCATED FOR TEMPORARY USE
+ MAXIMUM DISK SPACE USED                                    54 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Sat Feb 13 21:44:54 2021    
+ EXECUTION COMPLETED                       Sat Feb 13 21:45:13 2021    
+ ELAPSED TIME                                         00:00:19
+ CPU TIME                                             00:00:21
+
+************************************************************************
+
+  
+ 
+ *** PROGRAM STOPPED: FATAL ERROR(s) ENCOUNTERED.
+ 
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx
+  
+************************************************************************
+ OptiStruct error termination report printed to file
+ "Chaise_4_Pieds_Carres.stat".
+ Additional information may be found from standard streams stderr/stdout.
+ These are usually directed to the terminal, or collected
+ as separate files by any queuing or remote execution systems.
+ HyperWorks RunManager shows stderr in a separate 'log' window.
+ PROGRAM STOPPED DUE TO ERROR.
+  
+************************************************************************
+  
+ A fatal error has occurred during computations:
+  
+  *** PROGRAM STOPPED: ERRORS DURING ELEMENT QUALITY CHECK.
+  
+  
+  
+************************************************************************
