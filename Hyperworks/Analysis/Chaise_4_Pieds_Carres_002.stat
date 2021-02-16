@@ -1,0 +1,23 @@
+ Program execution started at Mon Feb 15 15:10:17 2021    
+	process id = 18460
+ Command line arguments:
+ C:/Users/adrin/Documents/Insic/2A/Optimisation/optimisation-topologique/Hyperworks/Analysis/Chaise_4_Pieds_Carres.fem
+ -optskip
+ -aif
+  
+ Expanding dictionary from 0 to 1111
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3. Field 'PID' of CTETRA bulk data.
+ Detailed disk usage: 
+	High usage overall   :    0.0 MiB,
+	Solver scratch       :    0.0 MiB,
+	Internal database    :    0.0 MiB,
+	Out-of-core assembly :    0.0 MiB,
+	Temporary files      :    0.0 MiB.
+
+SOLUTION COMPLETED, THE FOLLOWING IS CPU/WALL CLOCK SUMMARY (IN SECONDS):
+
+
+CUMULATIVE RUN TIME:     CPU=        0.00;     WALL=        0.00
+
