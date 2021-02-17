@@ -1,0 +1,234 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                     Altair OptiStruct(TM) 2020                     **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **              Windows 10  (Build 9200)  SURFACE_MAXIME              **
+ **         8 CPU:  Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz          **
+ **                    24896 MB RAM,  37217 MB swap                    **
+ **                                                                    **
+ ** Build: 1018160c0133200_Ce64RB68UH14M:175822-000  60040040000000140 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2020                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:/Program Files/Altair/2020-edu/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ 1 PARAM(s) were set:
+    CHECKEL,NO
+  
+ 
+ *** See next message about line 592915 from file:
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  "PLOAD4         7  5162550.0                                 8623    8630"
+  
+ *** WARNING # 1073
+ PLOAD4 data has zero pressure.
+  
+ 
+ *** See next message about line 592916 from file:
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  "PLOAD4         7  5074970.0                                 8628    8627"
+  
+ *** WARNING # 1073
+ PLOAD4 data has zero pressure.
+  
+ 
+ *** See next message about line 592917 from file:
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  "PLOAD4         7  5095540.0                                 8617    8620"
+  
+ *** WARNING # 1073
+ PLOAD4 data has zero pressure.
+  
+ 
+ *** See next message about line 592918 from file:
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  "PLOAD4         7  5160880.0                                 8613    8616"
+  
+ *** WARNING # 1073
+ PLOAD4 data has zero pressure.
+  
+ 
+ *** See next message about line 592919 from file:
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  "PLOAD4         7  5234310.0                                 8565    8555"
+  
+ *** WARNING # 1073
+ PLOAD4 data has zero pressure.
+  
+ 
+ *** See next message about line 592920 from file:
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  "PLOAD4         7  5135300.0                                 8553    8552"
+  
+ *** WARNING # 1073
+ PLOAD4 data has zero pressure.
+  
+ 
+ *** See next message about line 592921 from file:
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  "PLOAD4         7  5068180.0                                 8547    8546"
+  
+ *** WARNING # 1073
+ PLOAD4 data has zero pressure.
+  
+ 
+ *** See next message about line 592922 from file:
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  "PLOAD4         7  5055050.0                                 8545    8544"
+  
+ *** WARNING # 1073
+ PLOAD4 data has zero pressure.
+  
+ 
+ *** See next message about line 592923 from file:
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  "PLOAD4         7  5230750.0                                 8522    8542"
+  
+ *** WARNING # 1073
+ PLOAD4 data has zero pressure.
+  
+ 
+ *** See next message about line 592924 from file:
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  "PLOAD4         7  5069360.0                                 8535    8534"
+  
+ *** WARNING # 1073
+ PLOAD4 data has zero pressure.
+  
+ *** More of WARNING messages # 1073 were suppressed...
+  
+  
+  
+ *** WARNING 1931:   PLOAD4 SID=   6 is not referenced by Case Control.
+ *** WARNING 1931:   PLOAD4 SID=   7 is not referenced by Case Control.
+  
+ *** ERROR # 720 ***
+ Invalid static SUBCASE that has no load or enforced displacement.
+     subcase id = 1
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+  Output files prefix          : 
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0
+  Model read from files:
+ (*1)	    C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/test_Maxime/crash0.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :     85770
+  Total # of Elements                  :    503602
+  Total # of Degrees of Freedom        :    254889
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :   5845977
+
+ 
+  Element Type Information
+  ------------------------
+
+   CTETRA   Elements   :   503602
+
+  Load and Boundary Information
+  -----------------------------
+
+   SPC   Sets        :         3
+
+  Material and Property Information
+  ---------------------------------
+
+   PSOLID Cards      :         2
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+ ***** ERROR ENCOUNTERED BEFORE COMPLETING THE CHECK RUN *****
+ Memory (RAM) Allocated in Preprocessor                  :    1600 MB
+ Estimated Minimum Memory (RAM) for the check run        :     344 MB
+
+************************************************************************
+
+  
+ This error occurs in module "prpdrv".
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      1600 MB
+ MAXIMUM DISK SPACE USED                                     1 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Wed Feb 17 15:25:42 2021    
+ EXECUTION COMPLETED                       Wed Feb 17 15:25:49 2021    
+ ELAPSED TIME                                         00:00:06
+ CPU TIME                                             00:00:08
+
+************************************************************************
+
+  
+ 
+ *** PROGRAM STOPPED: FATAL ERROR(s) ENCOUNTERED.
+ 
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx
+  
+************************************************************************
+ Following warning messages appeared too many times
+ and were suppressed:
+    1073
+ Total of 3013 repeat message(s) were suppressed.
+ To see more messages use "MSGLMT" control card in the data or config file.
+  
+************************************************************************
+  
+ A fatal error has been detected during input processing:
+  
+  *** ERROR # 720 ***
+  Invalid static SUBCASE that has no load or enforced displacement.
+      subcase id = 1
+  
+  
+************************************************************************
