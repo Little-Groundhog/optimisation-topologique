@@ -1,0 +1,192 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                     Altair OptiStruct(TM) 2020                     **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **              Windows 10  (Build 9200)  SURFACE_MAXIME              **
+ **         8 CPU:  Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz          **
+ **                    24333 MB RAM,  37217 MB swap                    **
+ **                                                                    **
+ ** Build: 1018160c0133200_Ce64RB68UH14M:175822-000  60040040000000140 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2020                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:/Program Files/Altair/2020-edu/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ 1 PARAM(s) were set:
+    CHECKEL,NO
+  
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/Hyperworks/ChaiseMaxime.fem
+  Output files prefix          : 
+     C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/Hyperworks/ChaiseMaxime
+  Model read from files:
+ (*1)	    C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/Hyperworks/ChaiseMaxime.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :     88878
+  Total # of Elements                  :    521214
+  Total # of Degrees of Freedom        :    265926
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :   6111357
+
+ 
+  Element Type Information
+  ------------------------
+
+   CTETRA   Elements   :   521214
+
+  Load and Boundary Information
+  -----------------------------
+
+   FORCE Sets        :         3
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PSOLID Cards      :         2
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            1          4
+   ----------   --------  -------  --------------------- 
+
+   Run Type                        :   Analysis Only
+   Run at location                 : C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/Hyperworks/
+   Scratch file directory          : C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/Hyperworks/
+                                     Free space:   578.449 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Memory (RAM) Allocated in Preprocessor                  :    3545 MB
+ Estimated Memory (RAM) for Out of Core Solution         :    1248 MB
+ Estimated Memory (RAM) for In-Core Solution             :    3545 MB
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :     190 MB
+ Estimated Scratch Disk Space for In-Core Solution       :     251 MB
+ Estimated Scratch Disk Space for Out of Core Solution   :    3941 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ (Scratch disk space usage for starting iteration = 186 MB)
+(Running in-core solution)
+
+Volume                              =  7.11370E+07   Mass     =  0.00000E+00
+
+ Subcase   Compliance     Epsilon
+       1  7.462539E-01 -3.287582E-12
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+
+************************************************************************
+  
+ ANALYSIS COMPLETED.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      3545 MB
+   IN ADDITION     41 MB MEMORY WAS ALLOCATED FOR TEMPORARY USE
+ MAXIMUM DISK SPACE USED                                   292 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Wed Feb 17 15:59:04 2021    
+ EXECUTION COMPLETED                       Wed Feb 17 15:59:51 2021    
+ ELAPSED TIME                                         00:00:47
+ CPU TIME                                             00:00:48
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx
