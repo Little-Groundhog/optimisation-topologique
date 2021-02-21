@@ -1,0 +1,122 @@
+ Program execution started at Sun Feb 21 14:00:34 2021    
+	process id = 2040
+ Command line arguments:
+ C:/Users/Maxime Belcour/Documents/GitHub/optimisation-topologique/Hyperworks/opti/ChaiseMaxime.fem
+ -ram 25000    same as: -len
+ -aif
+  
+ Expanding dictionary from 0 to 1111
+
+TIME SPENT IN MODULE :    READ;  CPU=       4.27;  WALL=      4.55
+
+
+START RUNNING MODULE :  PREPR1 ...
+
+TIME SPENT IN MODULE :  PREPR1;  CPU=       0.08;  WALL=      0.08
+
+
+START RUNNING MODULE :  DESIGN ...
+
+TIME SPENT IN MODULE :  DESIGN;  CPU=       0.03;  WALL=      0.03
+
+
+START RUNNING MODULE :  PREPRO ...
+
+   Start running section :  PRDMGR ...
+
+   Time spent in section :  PRDMGR;  CPU=       0.09;  WALL=      0.01
+
+
+   Start running section :  PRROTD ...
+
+   Time spent in section :  PRROTD;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRP2DR ...
+
+   Time spent in section :  PRP2DR;  CPU=       5.11;  WALL=      3.97
+
+
+   Start running section :  PRPACO ...
+
+   Time spent in section :  PRPACO;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPFT1 ...
+
+   Time spent in section :  PRPFT1;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRDMIG ...
+
+   Time spent in section :  PRDMIG;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section : PRDMIG2 ...
+
+   Time spent in section : PRDMIG2;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPDDM ...
+
+   Time spent in section :  PRPDDM;  CPU=       0.05;  WALL=      0.05
+
+
+   Start running section :  PRPROF ...
+
+   Time spent in section :  PRPROF;  CPU=       0.05;  WALL=      0.05
+
+
+   Start running section :  PRPFRF ...
+
+   Time spent in section :  PRPFRF;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRP3DR ...
+
+   Time spent in section :  PRP3DR;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRDPPD ...
+  
+ *** ERROR # 1831 ***
+ STRESS/STRAIN response on DRESP1 card 3 does not reference any
+ valid elements.
+
+   Start running section :  PRPSUM ...
+
+   Time spent in section :  PRPSUM;  CPU=     107.31;  WALL=    107.58
+
+
+   Start running section :  PRPMI4 ...
+
+TIME SPENT IN MODULE :  PREPRO;  CPU=     112.61;  WALL=    111.67
+
+ Detailed disk usage: 
+	High usage overall   :    0.0 MiB,
+	Solver scratch       :    0.0 MiB,
+	Internal database    :    0.0 MiB,
+	Out-of-core assembly :    0.0 MiB,
+	Temporary files      :    0.0 MiB.
+
+SOLUTION COMPLETED, THE FOLLOWING IS CPU/WALL CLOCK SUMMARY (IN SECONDS):
+
+TOTAL TIME SPENT IN MODULE :READ    ;  CPU=       4.27;  WALL=      4.55
+TOTAL TIME SPENT IN MODULE :PREPR1  ;  CPU=       0.08;  WALL=      0.08
+TOTAL TIME SPENT IN MODULE :DESIGN  ;  CPU=       0.03;  WALL=      0.03
+   Total time spent in section :PRDMGR  ;  CPU=       0.09;  WALL=      0.01
+   Total time spent in section :PRROTD  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRP2DR  ;  CPU=       5.11;  WALL=      3.97
+   Total time spent in section :PRPACO  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPFT1  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRDMIG  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRDMIG2 ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPDDM  ;  CPU=       0.05;  WALL=      0.05
+   Total time spent in section :PRPROF  ;  CPU=       0.05;  WALL=      0.05
+   Total time spent in section :PRPFRF  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRP3DR  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPSUM  ;  CPU=     107.31;  WALL=    107.58
+TOTAL TIME SPENT IN MODULE :PREPRO  ;  CPU=     112.61;  WALL=    111.67
+
+CUMULATIVE RUN TIME:     CPU=      116.98;     WALL=      116.33
+
